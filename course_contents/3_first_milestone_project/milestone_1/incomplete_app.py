@@ -5,18 +5,22 @@ movies = []
 
 
 # You may want to create a function for this code
-title = input("Enter the movie title: ")
-director = input("Enter the movie director: ")
-year = input("Enter the movie release year: ")
+def add_movie():
+    title = input("Enter the movie title: ")
+    director = input("Enter the movie director: ")
+    year = input("Enter the movie release year: ")
 
-movies.append({
-    'title': title,
-    'director': director,
-    'year': year
-})
+    movies.append({
+        'title': title,
+        'director': director,
+        'year': year
+    })
 
 
 # Create other functions for:
+def p_movie(movie):
+    for i in movies:
+        print(movies[i]
 #   - listing movies
 #   - finding movies
 
