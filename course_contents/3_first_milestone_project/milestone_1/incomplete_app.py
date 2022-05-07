@@ -5,9 +5,11 @@ movies = []
 
 
 # You may want to create a function for this code
-title = input("Enter the movie title: ")
-director = input("Enter the movie director: ")
-year = input("Enter the movie release year: ")
+def movies():
+    
+    title = input("Enter the movie title: ")
+    director = input("Enter the movie director: ")
+    year = input("Enter the movie release year: ")
 
 movies.append({
     'title': title,
